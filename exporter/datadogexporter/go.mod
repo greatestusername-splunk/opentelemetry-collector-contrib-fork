@@ -3,16 +3,16 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datado
 go 1.19
 
 require (
-	github.com/DataDog/agent-payload/v5 v5.0.81
-	github.com/DataDog/datadog-agent/pkg/trace v0.45.0-rc.1
-	github.com/DataDog/datadog-api-client-go/v2 v2.11.0
+	github.com/DataDog/agent-payload/v5 v5.0.82
+	github.com/DataDog/datadog-agent/pkg/trace v0.45.0-rc.3
+	github.com/DataDog/datadog-api-client-go/v2 v2.12.0
 	github.com/DataDog/gohai v0.0.0-20220718130825-1776f9beb9cc
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.1.5
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.1.5
 	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.1.5
-	github.com/DataDog/sketches-go v1.4.1
+	github.com/DataDog/sketches-go v1.4.2
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.13.1
-	github.com/aws/aws-sdk-go v1.44.245
+	github.com/aws/aws-sdk-go v1.44.249
 	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil v0.75.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.75.0
@@ -24,17 +24,17 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver v0.75.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver v0.75.0
 	github.com/stretchr/testify v1.8.2
-	go.opentelemetry.io/collector v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/component v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/confmap v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/consumer v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/exporter v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/featuregate v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/pdata v1.0.0-rc9.0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/processor/batchprocessor v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/receiver v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/receiver/otlpreceiver v0.75.1-0.20230424163446-8e33ded10872
-	go.opentelemetry.io/collector/semconv v0.75.1-0.20230424163446-8e33ded10872
+	go.opentelemetry.io/collector v0.76.1
+	go.opentelemetry.io/collector/component v0.76.1
+	go.opentelemetry.io/collector/confmap v0.76.1
+	go.opentelemetry.io/collector/consumer v0.76.1
+	go.opentelemetry.io/collector/exporter v0.76.1
+	go.opentelemetry.io/collector/featuregate v0.76.1
+	go.opentelemetry.io/collector/pdata v1.0.0-rcv0011
+	go.opentelemetry.io/collector/processor/batchprocessor v0.76.1
+	go.opentelemetry.io/collector/receiver v0.76.1
+	go.opentelemetry.io/collector/receiver/otlpreceiver v0.76.1
+	go.opentelemetry.io/collector/semconv v0.76.1
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.24.0
 	google.golang.org/protobuf v1.30.0
@@ -48,12 +48,12 @@ require (
 	cloud.google.com/go/compute v1.19.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2 // indirect
-	github.com/DataDog/datadog-agent/pkg/obfuscate v0.45.0-rc.1 // indirect
-	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.45.0-rc.1 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/cgroups v0.45.0-rc.1 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/log v0.45.0-rc.1 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/pointer v0.45.0-rc.1 // indirect
-	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.45.0-rc.1 // indirect
+	github.com/DataDog/datadog-agent/pkg/obfuscate v0.45.0-rc.3 // indirect
+	github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.45.0-rc.3 // indirect
+	github.com/DataDog/datadog-agent/pkg/util/cgroups v0.45.0-rc.3 // indirect
+	github.com/DataDog/datadog-agent/pkg/util/log v0.45.0-rc.3 // indirect
+	github.com/DataDog/datadog-agent/pkg/util/pointer v0.45.0-rc.3 // indirect
+	github.com/DataDog/datadog-agent/pkg/util/scrubber v0.45.0-rc.3 // indirect
 	github.com/DataDog/datadog-go/v5 v5.1.1 // indirect
 	github.com/DataDog/go-tuf v0.3.0--fix-localmeta-fork // indirect
 	github.com/DataDog/zstd v1.5.2 // indirect
