@@ -17,9 +17,8 @@ Examples:
 
 ```yaml
 processors:
-  jq:
-    - jq_statement:
-        - '.arbitraryJsonArray[]'
+  jqprocessor:
+    - jq_statement: '.arbitraryJsonArray[]'
 ```
 
 ## Configuration
